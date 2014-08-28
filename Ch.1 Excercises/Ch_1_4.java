@@ -1,5 +1,6 @@
 // Ch.1 Excercise 4
 
+//This program displays an "escape sequence practice" output.
 public class Ch_1_4 {
    public static void main(String [] args) {
       System.out.println("What is the difference between");

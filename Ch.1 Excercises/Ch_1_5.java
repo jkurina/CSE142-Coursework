@@ -1,5 +1,6 @@
 // Ch.1 Excercise 5
 
+//This method displays the "escape sequence practice" output.
 public class Ch_1_5 {
    public static void main(String[] args) {
       System.out.println("A \"quoted\" String is");

@@ -1,0 +1,30 @@
+   public static void dotsPyramid() {
+      dotsShrink();
+      
+      for (int pyramid=1; pyramid<=line; pyramid++) {
+         System.out.print("/\\");
+      }
+      dotsShrink();
+   }
+
+   public static void dotsCone() {
+      dotsGrow();
+
+      for (int well=HEIGHT; well>=line; well--) {
+         System.out.print("\\/");
+      }
+      dotsGrow();
+
+   }
+   
+   public static void dotsShrink() {
+      for (int dots=1; dots<=HEIGHT-line; dots++) {
+         System.out.print(".");
+      }
+   }
+
+   public static void dotsGrow() {
+      for (int dots=1; dots<=line-1; dots++) {
+         System.out.print(".");
+      }
+   }

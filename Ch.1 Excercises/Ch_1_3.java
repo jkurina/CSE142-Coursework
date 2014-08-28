@@ -1,5 +1,6 @@
 // Ch.1 Excercise 3
 
+//This program displays a "helpful advice" output.
 public class Ch_1_3 {
    public static void main(String[] args) {      
       System.out.println("A well-formed Java program has");
